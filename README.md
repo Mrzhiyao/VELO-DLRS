@@ -106,4 +106,4 @@ The TCP receiver and the FTP upload do not use authentication. Run them only on 
 
 ## License
 
-Apache-2.0. `*/diffusion/` is adapted from [Diffusion-QL](https://github.com/Zhendong-Wang/Diffusion-Policies-for-Offline-RL) (Apache-2.0, Copyright 2022 Twitter, Inc and Zhendong Wang).
+Apache-2.0.
