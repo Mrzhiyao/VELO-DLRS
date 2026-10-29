@@ -1,0 +1,21 @@
+.env
+__pycache__/
+*.pyc
+
+# data and weights are hosted externally (see README)
+data/
+weights/
+*.npz
+*.pth
+
+# runtime outputs
+**/send_file_list/
+**/mv_file_list/
+**/node1/
+**/node2/
+**/node3/
+**/node*_log/
+**/weight_log/
+**/weightsave_log/
+*.txt
+!requirements.txt
