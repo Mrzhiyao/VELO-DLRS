@@ -1,6 +1,6 @@
 # VELO-DLRS
 
-Cloud-edge LLM request scheduling with a diffusion-based multi-agent PPO policy.
+This is an implementation of our paper [Enhancing LLM QoS Through Cloud-Edge Collaboration: A Diffusion-Based Multi-Agent Reinforcement Learning Approach](https://ieeexplore.ieee.org/document/10970093), published in IEEE Transactions on Services Computing (TSC), 2025. In this repo, we implement the proposed Vector database-assisted cloud-Edge collaborative LLM QoS Optimization (VELO) framework and the Diffusion-based LLM Request Scheduling (DLRS) algorithm, for both single-machine simulation and multi-node deployment.
 
 Each edge server keeps a vector cache of past LLM requests in Milvus. For each incoming request, the agent on that server either answers from the cache (action 0) or forwards the request to the cloud LLM (action 1). There is one agent per edge server. The policy is MAPPO with a diffusion-model actor.
 
