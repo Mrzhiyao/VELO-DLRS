@@ -104,6 +104,21 @@ The TCP receiver and the FTP upload do not use authentication. Run them only on 
 - Cache eviction: every 2400 steps, delete entries whose rank is below the average
 - Expert data: used while 1500 / update_times > 200
 
+## Citation
+
+```bibtex
+@article{yao2025enhancing,
+  title   = {Enhancing LLM QoS Through Cloud-Edge Collaboration: A Diffusion-Based Multi-Agent Reinforcement Learning Approach},
+  author  = {Yao, Zhi and Tang, Zhiqing and Yang, Wenmian and Jia, Weijia},
+  journal = {IEEE Transactions on Services Computing},
+  volume  = {18},
+  number  = {3},
+  pages   = {1412--1427},
+  year    = {2025},
+  doi     = {10.1109/TSC.2025.3562362}
+}
+```
+
 ## License
 
 Apache-2.0.
